@@ -1,0 +1,152 @@
+*,
+*::before
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #bf7631;
+}
+
+text {
+    font-family: 'Segoe UI';
+    font-size: 20;
+}
+
+.img--logo{
+    width: 20px;
+    height: 50%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.navflex{
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.main--img1{
+    height: 534px;
+    width: 397px;
+    position: relative;
+    top: auto;
+    top: 100px;
+}
+
+.main--img2{
+    height: 808px;
+    width: 600.87px;
+    float: right;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.text--left{
+    position: absolute;
+    font-size: 50;
+    top: 30px;
+    left: 16px;
+}
+
+.text--right{
+    position: absolute;
+    font-size: 50;
+    top: 30px;
+    left: 16px;
+}
+
+.fromthegroundup{
+    height: 633px;
+    width: 1920px;
+    object-fit: cover;
+}
+
+.logoposition{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    display: flex;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.cartright{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.img--contacts{
+    width: 74px;
+    height: 74px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.img--logo2{
+    width: 96px;
+    height: 96px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.footer--flex{
+    margin: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer--flex2{
+    margin: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+}
+
+.product--container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.buttonstyle{
+    background-color: #bf7631;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20;
+}
