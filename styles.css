@@ -71,15 +71,15 @@ header{
     height: 400px;
     width: 500px;
     float:right;
-    position: static;
+    position: sticky;
     top: auto;
-    top: 60px;
+    top: 50px;
 }
 
 .container{
     position: relative;
-    text-align: center;
     color: #ffffff;
+    
 }
 
 .text--left{
@@ -94,6 +94,7 @@ header{
     font-size: 100;
     top: 450px;
     right: 20px;
+    
 }
 
 .fromthegroundup  {
@@ -112,7 +113,7 @@ header{
     font-weight: bold;
 }
 
-.cartright{
+.cart{
     position: absolute;
     right: 5px;
     top: 5px;
@@ -142,7 +143,8 @@ header{
 
 .product-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid: auto / auto auto auto;
+    
 }
 
 .buttonstyle{
