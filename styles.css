@@ -98,7 +98,7 @@ header{
 
 .fromthegroundup  {
     height: 533px;
-    width: 1900px;
+    width: 1920px;
     object-fit:fill;
     
 }
@@ -118,7 +118,7 @@ header{
     top: 5px;
 }
 
-.img--contacts{
+.img-contacts{
     width: 74px;
     height: 74px;
     padding: 0px;
@@ -126,30 +126,21 @@ header{
     border: 0px;
 }
 
-.img--logo2{
-    width: 96px;
-    height: 96px;
-    padding: 0px;
+.img-logo{
+    width: 40px;
+    height: 60px;
+    padding: 5px;
     margin: 0px;
     border: 0px;
 }
 
-.footer--flex{
-    margin: 15px;
+.footer-flex{
+    margin: 2px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40%;
 }
 
-.footer--flex2{
-    margin: 15px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    position: center;
-}
-
-.product--container{
+.product-container{
     display: grid;
     grid-template-columns: auto auto auto;
 }
