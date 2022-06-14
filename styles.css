@@ -1,7 +1,7 @@
 *,
 *::before
 *::after {
-    margin: 0;
+    margin: 2;
     padding: 0;
     box-sizing: inherit;
 }
@@ -44,24 +44,36 @@ text {
     display: flex;
 }
 
-.sticky{
-    position: sticky;
-    top: 0;
-    width: 100%;
+nav input[type=text] {
+    float: right;
+    padding: 4px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+header{
+    position:relative;
+    padding: -1rem;
+    font-size: 20px;
 }
 
 .main--img1{
-    height: 534px;
-    width: 397px;
-    position: relative;
+    height: 400px;
+    width: 297px;
+    position: sticky;
     top: auto;
-    top: 100px;
+    top: 50px;
 }
 
 .main--img2{
-    height: 808px;
-    width: 600.87px;
-    float: right;
+    height: 400px;
+    width: 500px;
+    float:right;
+    position: static;
+    top: auto;
+    top: 60px;
 }
 
 .container{
@@ -72,22 +84,23 @@ text {
 
 .text--left{
     position: absolute;
-    font-size: 50;
+    font-size: 100;
     top: 30px;
     left: 16px;
 }
 
 .text--right{
-    position: absolute;
-    font-size: 50;
-    top: 30px;
-    left: 16px;
+    position:absolute;
+    font-size: 100;
+    top: 450px;
+    right: 20px;
 }
 
-.fromthegroundup{
-    height: 633px;
-    width: 1920px;
-    object-fit: cover;
+.fromthegroundup  {
+    height: 533px;
+    width: 1900px;
+    object-fit:fill;
+    
 }
 
 .logoposition{
@@ -122,14 +135,14 @@ text {
 }
 
 .footer--flex{
-    margin: 10px;
+    margin: 15px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 
 .footer--flex2{
-    margin: 10px;
+    margin: 15px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
